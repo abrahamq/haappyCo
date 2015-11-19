@@ -1,3 +1,40 @@
+.navbar-custom {
+  background: rgb(255, 193, 7);
+}
+
+body {
+  background: black;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+/*  */ 
+.carousel-caption h1 {
+/*  font-family:    Garamond; */
+  font-size:      3em;
+  color:          #FF6F00 !important;
+}
+/* Description text */
+.carousel-caption p {
+/*  font-family:    Garamond;*/
+  font-size:      2em;
+  color:          #FFFF00 !important;
+}
+
+/* Button text
+.carousel-caption .btn {
+  font-family:    Garamond;
+  font-size:      1em;
+  color:          yellow;
+}
+ */
+
+
+
+
 .btn-google-plus{
 	color:#fff;
 	background-color:#dd4b39;
