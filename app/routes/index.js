@@ -8,7 +8,7 @@ require('../../config/passport.js');
  */
 router.get('/', function(req, res) {
   req.isAuthenticated(); 
-  res.render('index', {title: 'PencilMeIn', showLoginButton: !req.isAuthenticated()});
+  res.render('index', {title: 'HaappyCo', showLoginButton: !req.isAuthenticated()});
 });
 
 router.get('/redirect', function(req, res) {
