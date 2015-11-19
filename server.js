@@ -6,6 +6,9 @@ var express = require('express'),
     mongoose = require('mongoose');
 
 var app = express();
+//app.use(express.static(__dirname + '/public'));
+
+
 
 // Configure app bootup
 require('./config/bootup')(app);
