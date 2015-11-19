@@ -5,6 +5,6 @@
     "name"        : "haappyCo",
     "script"      : "server.js",
     "watch"       : "../",
-    "log_date_format"  : "YYYY-MM-DD HH:mm Z",
+    "log_date_format"  : "YYYY-MM-DD HH:mm Z"
   }]
 }
