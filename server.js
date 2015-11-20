@@ -5,7 +5,11 @@ var express = require('express'),
     http = require('http');
     mongoose = require('mongoose');
 
+var serveIndex = require('serve-index'); 
+
 var app = express();
+
+
 
 
 
@@ -31,6 +35,8 @@ var mongoDirectory = '/data/db';
 mongoose.connect('mongodb://localhost:27017/pmidb');
 var db = mongoose.connection;
 db.on("error", function(err) {console.log("Mongoose error:", err)});
+
+app.use('/files', serveIndex(__dirname + '/public/files', {'icons': true}));
 
 
 module.exports = app;
