@@ -1,9 +1,17 @@
 .navbar-custom {
-  background: rgb(255, 193, 7);
+  background: rgb(255, 224, 0);
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: black;
+}
+
+.navbar-inverse .navbar-brand {
+  color: black;
 }
 
 body {
-  background: black;
+  background: white;
 }
 
 .col-centered{
