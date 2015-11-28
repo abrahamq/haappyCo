@@ -30,6 +30,19 @@ body {
   color:          #FFFF00 !important;
 }
 
+.orange {
+  color:          #FF6F00 !important;
+}
+
+.slogan {
+  font-size: 6em; 
+
+} 
+
+.thick {
+  margin: 60px; 
+}
+
 /* Button text
 .carousel-caption .btn {
   font-family:    Garamond;

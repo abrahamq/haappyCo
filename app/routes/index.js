@@ -11,9 +11,9 @@ router.get('/', function(req, res) {
   res.render('index', {title: 'HaappyCo', showLoginButton: !req.isAuthenticated()});
 });
 
-router.get('/redirect', function(req, res) {
-	res.render('secondpageplaceholder');
-});
+router.get('/careers', function(req, res){
+	res.render('careers');
+}); 
 
 //Google Authentication 
 router.get('/auth/google', passport.authenticate('google', { scope : ['https://www.googleapis.com/auth/calendar', 'https://www.googleapis.com/auth/userinfo.profile','profile']}));
