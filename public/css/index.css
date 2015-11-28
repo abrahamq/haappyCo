@@ -43,6 +43,12 @@ body {
   margin: 60px; 
 }
 
+.center-button{
+  float:none;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
 /* Button text
 .carousel-caption .btn {
   font-family:    Garamond;
